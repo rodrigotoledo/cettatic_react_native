@@ -10,7 +10,7 @@ export default function Layout() {
   }, [router]);
 
   return (
-    <Stack initialRouteName='(free)'>
+    <Stack>
       <Stack.Screen name="(free)" options={{ headerShown: false }} />
       <Stack.Screen name="(authenticated)" options={{ headerShown: false }} />
       <Stack.Screen
